@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+    <link rel="stylesheet" href="forms.css" />
+  </head>
+  <body>
+    <h1>Donaciones</h1>
+    <form class="contact-form">
+      <input
+        type="text"
+        name="nombre"
+        placeholder="Escribe tu nombre"
+        pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+        title="Nombre solo acepta letras y espacios en blanco"
+        required
+      />
+      <input
+        type="number"
+        name="email"
+        placeholder="Cantidad a donar"
+        required
+      />
+      <textarea
+        name="comentarios"
+        cols="30"
+        rows="10"
+        placeholder="Escribe tus comentarios"
+        required
+      ></textarea>
+      <input type="submit" />
+    </form>
+    <section class="regresar">
+      <a href="index.html">Página principal</a>
+    </section>
+  </body>
+</html>

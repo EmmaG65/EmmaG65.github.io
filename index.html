@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section class="barra">
+      <div class="logo">
+        <a href="#menu">
+          <i class="fa-solid fa-shield-dog"></i>
+        </a>
+      </div>
+      <nav>
+        <a href="#mas">Conocenos mas</a>
+        <a href="forms.html">Donaciones</a>
+        <a href="#trabajo">Nuestros trabajos</a>
+        <a href="#contactanos">Contactanos</a>
+      </nav>
+    </section>
+
+    <section class="menu" id="menu">
+      <img src="pets.jpg" alt="" />
+      <h1>
+        <span> Comprometidos con </span>
+        <span> nuestro trabajo </span>
+        <button>Conocer más</button>
+      </h1>
+    </section>
+    <section class="mas" id="mas">
+      <div>
+        <h2>Conocenos más</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod vel quas
+          tempora fugiat magnam nobis nemo delectus perferendis voluptatem
+          exercitationem recusandae rem nesciunt iusto, voluptatum commodi totam
+          repellat, ab laboriosam.
+        </p>
+      </div>
+      <img src="iot-changes-life-with-pets-main.jpg.crdownload" alt="" />
+    </section>
+    <section class="trabajo" id="trabajo">
+      <h2>Nuestros trabajos</h2>
+      <section class="grid">
+        <img src="pets.jpg" alt="" />
+        <img src="pets.jpg" alt="" />
+        <img src="pets.jpg" alt="" />
+        <img src="pets.jpg" alt="" />
+        <img src="pets.jpg" alt="" />
+        <img src="pets.jpg" alt="" />
+      </section>
+    </section>
+
+    <section class="contactanos">
+      <h2>Contactanos</h2>
+      <form class="contact-form">
+        <input
+          type="text"
+          name="nombre"
+          placeholder="Escribe tu nombre"
+          pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+          title="Nombre solo acepta letras y espacios en blanco"
+          required
+        />
+        <input
+          type="email"
+          name="email"
+          placeholder="Escribe tu correo"
+          required
+        />
+        <textarea
+          name="comentarios"
+          cols="30"
+          rows="5"
+          placeholder="Escribe tus comentarios"
+          required
+        ></textarea>
+        <input type="submit" />
+      </form>
+    </section>
+
+    <footer id="contactanos">
+      <span>Contactame por whatsapp:</span>
+      <a href="https://api.whatsapp.com/send?phone=1234567890&&text=hola"
+        >1234567890<i class="fa-brands fa-whatsapp"></i
+      ></a>
+    </footer>
+  </body>
+</html>
